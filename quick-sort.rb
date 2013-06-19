@@ -12,7 +12,3 @@ def quicksort(lst)
            quicksort(lst.select{|x| x > pivot})
   end
 end
-
-lst = [30, 20, 10]
-print quicksort(lst)
-
